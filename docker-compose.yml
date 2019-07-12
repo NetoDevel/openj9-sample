@@ -1,0 +1,14 @@
+version: '3'
+services:
+  app-openj9:
+    build:
+      context: .
+      dockerfile: Dockerfile-openj9
+    ports:
+    - "8081:8080"
+
+  app-jdk:
+    build: .
+    ports:
+    - "8082:8080"
+
