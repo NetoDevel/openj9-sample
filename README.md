@@ -25,3 +25,9 @@ CONTAINER           NAME                CPU %               MEM USAGE / LIMIT
 a99f82eb3a3a        demo_app-jdk_1      0.10%               210.5MiB / 1.934GiB
 188a58b82501        demo_app-openj9_1   0.10%               62.6MiB / 1.934GiB
 ```
+
+
+### Referências
+
+https://medium.com/criciumadev/using-openj9-for-running-microservices-in-docker-ebb0b5da1e00
+https://www.eclipse.org/openj9/
